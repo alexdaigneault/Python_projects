@@ -10,7 +10,7 @@ def flipping_coin():
     guess = input("Enter your choice: ")
     print("You guessed: ", coin_sides[int(guess)]) 
     bet = input("Enter your bet: ")
-    print("You betted: $", bet)
+    print("You bet: $", bet)
 
     #Flipping the coin 
     print("Flipping the coin...")
